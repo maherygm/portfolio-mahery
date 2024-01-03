@@ -1,0 +1,111 @@
+
+
+:root {
+  /* principal color */
+  --primaryColor: #9b71f5;
+  --secondaryColor: #101621;
+  --thirdColor: #101621;
+
+  --disabledColor: #7f7f7f;
+  --whiteColor: #ffffff;
+  --fillInput: #ffffff;
+  --greyColor: #e9ecf4;
+  --hoverColor: #f8f9fb;
+
+  --hoverBtnColor: #00000031;
+
+  /* background */
+  --backgroundColor: #f0f4f4;
+
+  /* background cards */
+  --backgroundColorCards: #fff;
+
+  /* Transparent Color */
+  --whiteColorTransparent: rgba(255, 255, 255, 0.7);
+  --darkColorTransparent: rgba(0, 0, 0, 0.06);
+
+  /* Font color */
+  --darkFontColor: #030239;
+  --lightFontColor: #222e43;
+
+  /* Success color */
+  --succesColor: #1b9a22;
+  --darksuccesColor: #26822b;
+
+  /* Warning color */
+  --warningColor: #fea23c;
+  --darkwarningColor: rgb(196, 111, 0);
+
+  /* Danger color */
+  --dangerColor: #df0b0b;
+  --darkdangerColor: #ff2600;
+
+  /* linear color */
+  --linearColor1: linear-gradient(to right, #00aeef 0%, #9e61c1 100%);
+  --linearColor2: linear-gradient(to right, #1a90e8 10%, #f7b50e 100%);
+
+  --blurcolor1: #bf65f7;
+  --blurcolor2: #26b2ed;
+  --blurcolor3: #99e29a;
+
+  /* Supplement color */
+  --color1: #ffb000;
+  --color2: #d30074;
+  --color3: #e96e16;
+  --color4: #06b91e;
+
+  /* Font family */
+  --DefaultFont: Epilogue;
+  --TitleFont: Poppins;
+}
+
+.darkTheme {
+  /* principal color */
+  --primaryColor: #9b71f5;
+  --secondaryColor: #253a6c;
+  --thirdColor: #ffffff;
+
+  --disabledColor: #7f7f7f;
+  --whiteColor: #253a6c;
+  --fillInput: #1c2c4a;
+  --greyColor: #1c2638;
+  --hoverColor: #f8f9fb;
+
+  --hoverBtnColor: #00000031;
+
+  /* background */
+  --backgroundColor: #142038;
+
+  /* Transparent Color */
+  --whiteColorTransparent: rgba(63, 63, 63, 0.5);
+  --darkColorTransparent: rgba(68, 91, 132, 0.4);
+
+  /* background cards */
+  --backgroundColorCards: #0b111d46;
+
+  /* Font color */
+  --darkFontColor: #ffffff;
+  --lightFontColor: #222e43;
+
+  /* Success color */
+  --succesColor: #1b9a22;
+  --darksuccesColor: #26822b;
+
+  /* Warning color */
+  --warningColor: #fea23c;
+  --darkwarningColor: rgb(196, 111, 0);
+
+  /* Danger color */
+  --dangerColor: #df0b0b;
+  --darkdangerColor: #ff2600;
+
+  /* linear color */
+  --linearColor1: linear-gradient(to right, #360093 0%, #360093 100%);
+  --linearColor2: linear-gradient(to right, #1a90e8 10%, #f7b50e 100%);
+
+  /* For blur background */
+  --blurcolor1: #ca81f7;
+  --blurcolor2: #7eccee;
+  --blurcolor3: #99e29a;
+
+}

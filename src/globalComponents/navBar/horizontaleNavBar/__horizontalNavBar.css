@@ -1,0 +1,117 @@
+.horizontal-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  mix-blend-mode: difference;
+  position: relative;
+}
+nav {
+  mix-blend-mode: difference;
+  width: 70%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  mix-blend-mode: difference;
+  color: white;
+  padding: 20px;
+}
+
+nav > .nav-content ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  right: 140px;
+  width: max-content;
+}
+
+nav > .nav-content ul li {
+  mix-blend-mode: difference;
+  color: white;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  width: max-content;
+}
+
+nav > .nav-content ul li span::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: white;
+  margin: 0px auto;
+  transition: width 300ms ease-in-out;
+}
+
+nav > .nav-content ul li:hover ::after {
+  width: 100%;
+}
+.toogle-btn-nav {
+  position: absolute;
+  right: 50px;
+}
+.menu-icon-nav {
+  position: absolute;
+  top: 14px;
+  right: 0px;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 820px) {
+  .menu-icon-nav {
+    display: block;
+  }
+  .navbar {
+    height: 70px;
+    transition: height 200ms ease-in-out;
+  }
+  .navbar.active {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    align-items: center;
+    color: black;
+    transition: height 200ms ease-in-out;
+  }
+  nav > .nav-content ul {
+    display: none;
+  }
+  .navbar.active > .nav-content ul {
+    flex-direction: column;
+    position: absolute;
+    top: 27px;
+    left: 45%;
+    transform: translateX(-50%);
+    display: block;
+  }
+  nav > h1 {
+    position: absolute;
+    top: 20px;
+  }
+  nav > .toogle-btn-nav {
+    position: absolute;
+    top: 20px;
+  }
+
+  nav > .nav-content ul li {
+    color: black;
+    width: max-content;
+    margin: 10px;
+  }
+  nav > .nav-content ul li span::after {
+    background-color: black;
+  }
+}
+
+@media (max-width: 666px) {
+  nav {
+    width: 100%;
+  }
+}

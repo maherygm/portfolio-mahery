@@ -1,0 +1,272 @@
+.main-eegs-toogle {
+  /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+  width: 58px;
+  height: 27px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.eggs-content-container {
+  width: 98%;
+  height: 98%;
+  background-color: rgb(61, 131, 175);
+  border-radius: inherit;
+  position: relative;
+  overflow: hidden;
+}
+
+.nuage-bleu {
+  background-color: white;
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 7;
+  cursor: pointer;
+  transition: all ease-in 200ms;
+}
+
+.nuage11 {
+  top: 0%;
+  right: -10%;
+  background-color: rgb(199, 229, 248);
+  border-radius: 100%;
+}
+
+.nuage12 {
+  bottom: 10%;
+  right: 0%;
+  background-color: rgb(199, 229, 248);
+}
+.nuage13 {
+  bottom: 5%;
+  right: 10%;
+  background-color: rgb(199, 229, 248);
+}
+.nuage14 {
+  bottom: -5%;
+  right: 25%;
+  background-color: rgb(199, 229, 248);
+}
+.nuage15 {
+  bottom: -30%;
+  right: 40%;
+  background-color: rgb(199, 229, 248);
+}
+.nuage16 {
+  bottom: -27%;
+  right: 60%;
+  background-color: rgb(199, 229, 248);
+}
+.nuage17 {
+  bottom: -30%;
+  right: 85%;
+  background-color: rgb(199, 229, 248);
+}
+
+.nuage-blanc {
+  background-color: white;
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 12;
+  transition: all ease-in 300ms;
+}
+
+.nuage21 {
+  top: 15%;
+  right: -10%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+.nuage22 {
+  bottom: -20%;
+  right: -5%;
+  background-color: rgb(255, 255, 255);
+}
+.nuage23 {
+  right: 10%;
+  bottom: -50%;
+}
+.nuage24 {
+  right: 20%;
+  bottom: -40%;
+}
+.nuage25 {
+  right: 37%;
+  bottom: -60%;
+}
+.nuage26 {
+  right: 55%;
+  bottom: -50%;
+}
+
+.cielvague {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-in-out;
+}
+
+.vague-ciel {
+  position: absolute;
+  width: 70%;
+  height: 200%;
+  z-index: 10;
+  border-radius: 100%;
+  top: -50%;
+}
+
+.vague-ciel1 {
+  right: 20%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.205);
+}
+.vague-ciel2 {
+  right: 35%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.315);
+}
+.vague-ciel3 {
+  right: 50%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.253);
+}
+
+.eggs-content {
+  cursor: pointer;
+  width: 37%;
+  height: 80%;
+  background-color: rgb(253, 198, 78);
+  position: absolute;
+  z-index: 16;
+  border-radius: 100%;
+  left: 5%;
+  top: 10%;
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode-egg > .eggs-content-container {
+  background-color: #252525;
+}
+
+.dark-mode-egg > .eggs-content-container > .nuage-bleu {
+  opacity: 0;
+}
+.dark-mode-egg > .eggs-content-container > .nuage-blanc {
+  opacity: 0;
+}
+.dark-mode-egg > .eggs-content-container > .cielvague {
+  cursor: pointer;
+  transform: translate(70%);
+  transition: all 500ms ease-in-out;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.dark-mode-egg > .eggs-content-container > .cielvague > .eggs-content {
+  left: -10%;
+  background-color: lightgrey;
+  z-index: 12;
+}
+
+.circle-eggs {
+  display: none;
+}
+
+.dark-mode-egg
+  > .eggs-content-container
+  > .cielvague
+  > .eggs-content
+  .circle-eggs {
+  display: block;
+
+  position: absolute;
+  border-radius: 100%;
+  background-color: rgba(85, 85, 85, 0.397);
+}
+
+.circle1-eggs {
+  top: 20%;
+  left: 50%;
+  width: 10%;
+  height: 10%;
+}
+.circle2-eggs {
+  top: 40%;
+  left: 20%;
+  width: 30%;
+  height: 30%;
+}
+.circle3-eggs {
+  top: 70%;
+  left: 60%;
+  width: 20%;
+  height: 20%;
+}
+
+.etoile-egg {
+  -webkit-clip-path: polygon(
+    0 50%,
+    38% 37%,
+    51% 0,
+    64% 36%,
+    100% 50%,
+    63% 59%,
+    50% 100%,
+    39% 59%
+  );
+  clip-path: polygon(
+    0 50%,
+    38% 37%,
+    51% 0,
+    64% 36%,
+    100% 50%,
+    63% 59%,
+    50% 100%,
+    39% 59%
+  );
+
+  width: 10%;
+  height: 20%;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.etoileeggs1 {
+  transform: translate(-500%, 100%);
+  width: 10%;
+  height: 20%;
+}
+.etoileeggs2 {
+  transform: translate(-400%, 300%);
+}
+.etoileeggs3 {
+  transform: translate(-650%, 400%);
+  width: 5%;
+  height: 10%;
+}
+.etoileeggs4 {
+  transform: translate(-850%, 500%);
+  width: 7%;
+  height: 12%;
+}
+.etoileeggs5 {
+  transform: translate(-1000%, 800%);
+  width: 2%;
+  height: 5%;
+}
+.etoileeggs6 {
+  transform: translate(-1200%, 100%);
+  width: 2%;
+  height: 5%;
+}

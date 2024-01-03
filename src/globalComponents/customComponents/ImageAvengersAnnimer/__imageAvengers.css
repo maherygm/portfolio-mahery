@@ -1,0 +1,24 @@
+.main-co {
+  height: auto;
+  width: fit-content;
+  margin: 200vh 0px;
+  position: relative;
+}
+
+.image-2 {
+  width: 700px;
+  background-color: lightblue;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  position: absolute;
+  top: 0;
+  width: 0px;
+  background-color: lightblue;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

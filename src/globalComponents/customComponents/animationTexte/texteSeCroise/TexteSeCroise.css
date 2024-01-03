@@ -1,0 +1,16 @@
+.countainer-txte-se-croise {
+  height: 400vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+h1 {
+  background-color: lightcoral;
+}
+
+.text-contenaire {
+  margin-top: 200vh;
+  margin-bottom: 200vh;
+  color: aliceblue;
+}
