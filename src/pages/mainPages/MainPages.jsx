@@ -1,9 +1,12 @@
 import React from "react";
+import NavBar from "./content/navBar/NavBar";
+import Banner from "./content/banner/Banner";
 
 const MainPages = () => {
   return (
     <div>
-      <h1>Main Pages</h1>
+      <NavBar />
+      <Banner />
     </div>
   );
 };

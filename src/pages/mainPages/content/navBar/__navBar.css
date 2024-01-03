@@ -1,0 +1,28 @@
+.main-container-navbar {
+  width: 90vw;
+  height: auto;
+  /* background-color: crimson; */
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 100px;
+}
+.content-navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-navBar > h2,
+.content-navBar > h1 {
+  color: var(--darkFontColor);
+}
+.toogle-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.content-navBar > h2 {
+  width: 200px;
+}
+.toogle-content > h2 {
+  color: var(--darkFontColor);
+}

@@ -1,10 +1,19 @@
-
+@font-face {
+  font-family: "KronaOne";
+  src: url("../../fonts/KronaOne.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../fonts/Nunito.ttf") format("ttf");
+}
+/* @import url("../../fonts/KronaOne.ttf");
+@import url("../../fonts/Nunito.ttf"); */
 
 :root {
   /* principal color */
-  --primaryColor: #9b71f5;
-  --secondaryColor: #101621;
-  --thirdColor: #101621;
+  --primaryColor: #601884;
+  --secondaryColor: #2f264f;
+  --thirdColor: #4f264b;
 
   --disabledColor: #7f7f7f;
   --whiteColor: #ffffff;
@@ -55,15 +64,15 @@
   --color4: #06b91e;
 
   /* Font family */
-  --DefaultFont: Epilogue;
-  --TitleFont: Poppins;
+  --DefaultFont: "Nunito", Arial;
+  --TitleFont: "KronaOne", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .darkTheme {
   /* principal color */
-  --primaryColor: #9b71f5;
-  --secondaryColor: #253a6c;
-  --thirdColor: #ffffff;
+  --primaryColor: #601884;
+  --secondaryColor: #2f264f;
+  --thirdColor: #4f264b;
 
   --disabledColor: #7f7f7f;
   --whiteColor: #253a6c;
@@ -84,7 +93,7 @@
   --backgroundColorCards: #0b111d46;
 
   /* Font color */
-  --darkFontColor: #ffffff;
+  --darkFontColor: #dcdcdc;
   --lightFontColor: #222e43;
 
   /* Success color */
@@ -107,5 +116,4 @@
   --blurcolor1: #ca81f7;
   --blurcolor2: #7eccee;
   --blurcolor3: #99e29a;
-
 }
