@@ -1,0 +1,70 @@
+.skillsExp-section {
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  padding: 100px 0px;
+}
+.skillsExp-section .main-content-exp {
+  z-index: 10;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--backgroundColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#element-scrool {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: var(--backgroundColorTransparentDark);
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  z-index: 9;
+}
+
+.bloc-exp-1 {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bloc-exp-1 h1 {
+  font-size: 50px;
+}
+.bloc-exp-2 {
+  margin-top: 50px;
+  display: flex;
+  max-width: 810px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.bloc-exp-2 .element svg {
+  width: 70px;
+  height: 70px;
+}
+
+.bloc-exp-2 .element svg path {
+  fill: var(--backgroundColor);
+}
+.bloc-exp-2 .element {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--backgroundColor);
+}

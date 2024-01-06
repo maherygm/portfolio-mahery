@@ -1,10 +1,10 @@
 @font-face {
   font-family: "KronaOne";
-  src: url("../../fonts/KronaOne.ttf") format("ttf");
+  src: url("../../fonts/KronaOne.ttf");
 }
 @font-face {
   font-family: "Nunito";
-  src: url("../../fonts/Nunito.ttf") format("ttf");
+  src: url("../../fonts/Nunito.ttf");
 }
 /* @import url("../../fonts/KronaOne.ttf");
 @import url("../../fonts/Nunito.ttf"); */
@@ -24,7 +24,11 @@
   --hoverBtnColor: #00000031;
 
   /* background */
-  --backgroundColor: #f0f4f4;
+  --backgroundColor: #cdcdcd;
+  --backgroundColorNav: #121321;
+
+  --backgroundColorTransparent: rgba(255, 255, 255, 0.247);
+  --backgroundColorTransparentDark: rgb(1, 1, 1);
 
   /* background cards */
   --backgroundColorCards: #fff;
@@ -84,6 +88,10 @@
 
   /* background */
   --backgroundColor: #142038;
+  --backgroundColorNav: #cdcdcd;
+
+  --backgroundColorTransparent: rgba(0, 0, 0, 0.247);
+  --backgroundColorTransparentDark: rgb(214, 214, 214);
 
   /* Transparent Color */
   --whiteColorTransparent: rgba(63, 63, 63, 0.5);
@@ -94,7 +102,7 @@
 
   /* Font color */
   --darkFontColor: #dcdcdc;
-  --lightFontColor: #222e43;
+  --lightFontColor: #6c6d6e;
 
   /* Success color */
   --succesColor: #1b9a22;

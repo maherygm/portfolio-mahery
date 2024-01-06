@@ -26,3 +26,59 @@
 .toogle-content > h2 {
   color: var(--darkFontColor);
 }
+#menu-clickbtn {
+  cursor: pointer;
+}
+
+.Menu-bar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 11111;
+  transition: display 500ms ease;
+}
+
+.Menu-bar .bar-navigation {
+  height: 20%;
+  background-color: var(--backgroundColorNav);
+  width: 0%;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid black;
+  color: var(--backgroundColor);
+}
+.Menu-bar.hiden {
+  transition: display 500ms ease;
+  display: none;
+}
+
+.title-menu {
+  font-size: 70px;
+  font-family: var(--TitleFont);
+  cursor: pointer;
+}
+/* .Menu-bar.hiden > .Menu-bar .bar-navigation {
+  display: none;
+} */
+
+.bar-navigation > h1,
+.bar-navigation > h3 {
+  margin-right: 50px;
+  font-size: 100px;
+}
+
+.bar-navigation.item-2 > p,
+.bar-navigation.item-3 > p,
+.bar-navigation.item-4 > p {
+  margin-right: 50px;
+  font-size: 50px;
+  cursor: pointer;
+}
+/* 
+.navfixed {
+  position: fixed;
+  top: 20px;
+  background-color: lightcoral;
+  z-index: 1000;
+} */

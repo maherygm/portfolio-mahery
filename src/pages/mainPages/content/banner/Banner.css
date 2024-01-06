@@ -2,7 +2,7 @@
   font-size: 110px;
 }
 
-.banner-container > h1 {
+.banner-container > .banner-main h1 {
   text-align: center;
   color: var(--darkFontColor);
 }
