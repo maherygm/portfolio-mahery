@@ -9,3 +9,13 @@
   transition: transform 100ms ease;
   z-index: -1;
 }
+/* 
+.main-containner {
+  scroll-snap-type: y mandatory;
+}
+.banner-container,
+.about-me-section,
+.projet-realiser-main,
+.skillsExp-section {
+  scroll-snap-align: start;
+} */

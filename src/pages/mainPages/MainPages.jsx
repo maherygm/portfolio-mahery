@@ -4,15 +4,12 @@ import NavBar from "./content/navBar/NavBar";
 import Banner from "./content/banner/Banner";
 import ProjetRealiser from "./content/projectRealiser/ProjetRealiser";
 import { gsap } from "gsap";
-
-import { ScrollTrigger } from "gsap/all";
 import LocomotiveScroll from "locomotive-scroll";
 import AboutMe from "./content/aboutme/AboutMe";
 import SkillsExp from "./content/skills&exp/SkillsExp";
 
 const MainPages = () => {
   //locomotive scroll instantiation
-
   const [view, setView] = useState(false);
   useEffect(() => {
     const scroll = new LocomotiveScroll({
@@ -46,6 +43,18 @@ const MainPages = () => {
         duration: 1,
       }
     );
+  }, []);
+
+  useEffect(() => {
+    gsap.to("body", {
+      scale: 0.5,
+      height: "100vh",
+    });
+    gsap.to("body", {
+      scale: 1,
+      delay: 5,
+      height: "auto",
+    });
   }, []);
 
   //annimation du bulle
@@ -89,14 +98,13 @@ const MainPages = () => {
   }, []);
   return (
     <>
-      <div data-scroll-container>
+      <div data-scroll-container className="main-containner">
         <NavBar />
         <Banner />
         <AboutMe />
         <SkillsExp />
         <ProjetRealiser />
       </div>
-
       {/* bulle */}
       <div
         // data-scroll-section

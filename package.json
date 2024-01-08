@@ -25,7 +25,12 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@react-three/fiber": "^8.15.13",
+    "@types/three": "^0.160.0",
+    "aos": "^2.3.4",
+    "react-moving-text": "^0.0.7",
+    "three": "^0.160.0"
   },
   "scripts": {
     "start": "react-scripts start",
