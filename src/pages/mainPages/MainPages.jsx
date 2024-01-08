@@ -7,6 +7,7 @@ import { gsap } from "gsap";
 import LocomotiveScroll from "locomotive-scroll";
 import AboutMe from "./content/aboutme/AboutMe";
 import SkillsExp from "./content/skills&exp/SkillsExp";
+import ContactMe from "./content/contactme/ContactMe";
 
 const MainPages = () => {
   //locomotive scroll instantiation
@@ -104,6 +105,7 @@ const MainPages = () => {
         <AboutMe />
         <SkillsExp />
         <ProjetRealiser />
+        <ContactMe />
       </div>
       {/* bulle */}
       <div

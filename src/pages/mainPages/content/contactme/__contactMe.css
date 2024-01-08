@@ -1,0 +1,14 @@
+.main-cotainner-Contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.claMessageExamle {
+  background-color: crimson;
+  width: 50%;
+  height: 100vh;
+}
+.troid-model {
+  width: 50%;
+}
